@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="index.js"></script>
+  <script src="stopwatch.js"></script>
+
+</head>
+<body class="bg-dark ">
+  <div class="header">
+    <marquee behavior="alternate" direction="left" scrollamount="3">
+      <span class="text-secondary">Desktop App using HTML,CSS,JavaScript by Electron js</span>
+    </marquee>
+  </div>  
+
+ 
+    <div class="row display-2 text-white m-3">
+      <div class="col-3  ">
+        <span id="hh" class=" ">00</span>:
+      </div>
+     
+      <div class="col-3 ">
+        <span id="mm" >00</span>:
+      </div>
+     
+      <div class="col-3">
+        <span id="ss">00</span><span class="text-warning">.</span>
+
+      </div>
+   
+      <div class="col-3 ">
+        <span id="mss" class="display-4 text-warning mt-4 pt-2">00</span>
+      </div>
+    </div>
+    <hr class="hr bg-white">
+<form name="test">
+	<div class="row ml-5 mr-5 mb-2 ">
+    <div class="col-4 " >
+      <button class="btn btn-danger  " id="stopbtn" onclick="stopper()"><span class="h3">STOP</span></button>
+    </div>
+    <div class="col-4">
+      <button class="btn btn-success  " id="startbtn" onclick="starter()"><span class="h3">Start</span></button>
+    </div>
+    <div class="col-4">
+      <button class="btn btn-primary  " id="resetbtn" onclick="resetter()"><span class="h3">Reset</span></button>
+    </div>
+    
+  </div>
+
+				
+</form>
+<div class="footer p-3 text-secondary">
+  <span class="h5">Designed & coded by</span> <br>
+  &copy;Pawan Kumar Sah <br>
+  krpawansah@gmail.com<br>
+  Birgunj-13, parsa (Nepal)
+  <span class="float-right">23 jan 2021 00:15</span>
+  
+</div>
+  
+ 
+</body>
+</html>
